@@ -14,5 +14,8 @@ class TestMMFunctions < Minitest::Test
 	def test_two_plus_three_equals_five
 		assert_equal(5, add(2,3))
 	end
-
+	
+	def test_20_plus_1_equals_21
+		assert_equal(21, add(20,1))
+	end
 end	
